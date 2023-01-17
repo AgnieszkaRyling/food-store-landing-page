@@ -1,0 +1,64 @@
+.header-container {
+  max-width: 1440px;
+  background-color: #f3fcf7;
+  display: flex;
+  justify-content: center;
+}
+
+.header-box {
+  width: 1177px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.menu-list {
+  display: flex;
+  gap: 25px;
+  position: relative;
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+  .menu-list {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-list {
+    display: none;
+  }
+}
+
+.menu-list a:hover {
+  color: #06c167;
+}
+
+.mobile-button {
+  display: none;
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+  .mobile-button {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-button {
+    display: block;
+  }
+}
+
+.mobile-menu {
+  width: 100%;
+  background-color: #06c167;
+  position: absolute;
+  bottom: -200px;
+  left: 0;
+}
+
+.mobile-menu ul li {
+  padding: 10px;
+}

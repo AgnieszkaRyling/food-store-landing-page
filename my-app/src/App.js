@@ -1,0 +1,17 @@
+import Layout from "./components/Layout";
+import SectionHero from "./components/SectionHero";
+
+import "./components/Reset.css";
+import "./components/Normalize.css";
+import "./components/Fonts.css";
+import "./components/Reuse.css";
+
+const App = () => {
+  return (
+    <Layout>
+      <SectionHero />
+    </Layout>
+  );
+};
+
+export default App;
