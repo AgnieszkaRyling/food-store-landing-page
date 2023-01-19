@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./Header.css";
+import { faEnvelope, faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Header = () => {
   const [isOpenMobileMenu, setIsOpenMobileMenu] = useState(false);
@@ -33,7 +35,7 @@ const Header = () => {
               className="mobile-button"
               onClick={() => setIsOpenMobileMenu((prev) => !prev)}
             >
-              <i class="fa-solid fa-bars"></i>
+              <FontAwesomeIcon icon={faBars} />
             </button>
           </div>
         </div>

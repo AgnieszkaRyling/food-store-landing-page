@@ -1,21 +1,24 @@
 .section-hero {
   max-width: 1440px;
   background-color: #f3fcf7;
+}
+
+.hero-row-one {
+  background-color: #f3fcf7;
   display: flex;
-  justify-content: space-between;
-  align-content: center;
-  padding: 25px 100px;
+  padding: 80px;
   position: relative;
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
-  .section-hero {
+  .hero-row-one {
+    justify-content: space-around;
     padding: 10px;
   }
 }
 
 @media (max-width: 768px) {
-  .section-hero {
+  .hero-row-one {
     flex-direction: column;
     align-items: center;
     padding: 10px;
@@ -23,12 +26,18 @@
 }
 
 .hero-text-box {
-  max-width: 550px;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   padding: 30px;
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+  .hero-text-box {
+    width: 400px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -38,24 +47,18 @@
   }
 }
 
-.hero-image-container {
-  width: 468px;
-  height: 300px;
-  position: relative;
-  margin-bottom: 200px;
-}
-
 .hero-image-box {
   width: 458px;
   max-height: 634px;
   position: absolute;
-  right: 0;
-  top: -10px;
+  right: 100px;
+  top: 40px;
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
   .hero-image-box {
     position: static;
+    height: 500px;
     width: 350px;
   }
 }
@@ -76,21 +79,21 @@
   padding: 8px;
   border-radius: 30px;
   position: absolute;
-  right: -50px;
-  top: 170px;
+  right: 0;
+  top: 190px;
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
   .hero-opinion-box {
-    left: -20px;
-    top: 400px;
+    right: 250px;
+    top: 440px;
   }
 }
 
 @media (max-width: 768px) {
   .hero-opinion-box {
-    left: 40px;
-    top: 400px;
+    right: 20px;
+    top: 540px;
   }
 }
 
@@ -108,21 +111,21 @@
   padding: 8px;
   border-radius: 30px;
   position: absolute;
-  left: -50px;
-  top: 250px;
+  right: 400px;
+  top: 270px;
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
   .hero-rating-box {
-    left: -20px;
-    top: 350px;
+    right: 250px;
+    top: 390px;
   }
 }
 
 @media (max-width: 768px) {
   .hero-rating-box {
-    left: 40px;
-    top: 350px;
+    top: 600px;
+    left: 20px;
   }
 }
 
@@ -134,4 +137,34 @@
 .hero-rating-picture-box {
   width: 20px;
   height: 20px;
+}
+
+.hero-row-two {
+  width: 100%;
+  min-height: 130px;
+  padding: 40px 80px;
+  background-color: #fff;
+}
+
+.hero-company-box {
+  max-width: 570px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 2px solid red;
+}
+
+.company-picture-box-one {
+  width: 155px;
+  height: 36px;
+}
+
+.company-picture-box-two {
+  width: 158px;
+  height: 36px;
+}
+
+.company-picture-box-three {
+  width: 149px;
+  height: 34px;
 }
