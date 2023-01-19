@@ -2,6 +2,7 @@ import Layout from "./components/Layout";
 import SectionHero from "./components/SectionHero";
 import SectionLogos from "./components/SectionLogos";
 import SectionFeatures from "./components/SectionFeatures";
+import SectionBenefits from "./components/SectionBenefits";
 
 import "./components/Reset.css";
 import "./components/Normalize.css";
@@ -14,6 +15,7 @@ const App = () => {
       <SectionHero />
       <SectionLogos />
       <SectionFeatures />
+      <SectionBenefits />
     </Layout>
   );
 };

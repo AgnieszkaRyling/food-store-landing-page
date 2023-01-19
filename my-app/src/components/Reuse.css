@@ -15,10 +15,18 @@
   }
 }
 
+.mb-10 {
+  margin-bottom: 10px;
+}
+
 .mb-40 {
   margin-bottom: 40px;
 }
 
 .mb-60 {
   margin-bottom: 60px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
 }
