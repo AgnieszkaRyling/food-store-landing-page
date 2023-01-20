@@ -4,9 +4,9 @@ import "./SectionBenefits.css";
 
 const SectionBenefits = () => {
   return (
-    <section className="section-benefits container mb-80">
+    <section className="section-benefits container mb-150">
       <div className="benefits-picture-box">
-        <img src={Benefits} alt="" />
+        <img src={Benefits} alt="Fruit and vegetables" />
       </div>
       <div className="benefits-text-box">
         <p className="p-15 text-medium mb-40 mobile-text">Our Benefits</p>

@@ -30,3 +30,12 @@
 .mb-80 {
   margin-bottom: 80px;
 }
+
+.mb-150 {
+  margin-bottom: 150px;
+}
+
+.btn-like {
+  background-color: transparent;
+  border: none;
+}

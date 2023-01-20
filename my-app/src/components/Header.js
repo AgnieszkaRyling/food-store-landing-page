@@ -32,10 +32,15 @@ const Header = () => {
           <div className="mobile-button-icon-box">
             <button
               type="button"
-              className="mobile-button"
+              className="mobile-button btn-like"
               onClick={() => setIsOpenMobileMenu((prev) => !prev)}
             >
-              <FontAwesomeIcon icon={faBars} />
+              <FontAwesomeIcon
+                icon={faBars}
+                size="3x"
+                beat
+                className="mobile-icon"
+              />
             </button>
           </div>
         </div>

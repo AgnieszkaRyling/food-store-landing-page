@@ -3,6 +3,7 @@ import SectionHero from "./components/SectionHero";
 import SectionLogos from "./components/SectionLogos";
 import SectionFeatures from "./components/SectionFeatures";
 import SectionBenefits from "./components/SectionBenefits";
+import SectionStars from "./components/SectionStars";
 
 import "./components/Reset.css";
 import "./components/Normalize.css";
@@ -16,6 +17,7 @@ const App = () => {
       <SectionLogos />
       <SectionFeatures />
       <SectionBenefits />
+      <SectionStars />
     </Layout>
   );
 };
