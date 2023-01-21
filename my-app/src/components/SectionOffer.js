@@ -20,7 +20,7 @@ const SectionOffer = () => {
           <div className="offer-picture-box">
             <img src={OfferCarrot} alt="Healty fruit and vegetables" />
           </div>
-          <div className="offer-item-tekst">
+          <div className="offer-item-text">
             <p className="p-32 text-medium mb-40">Veggies Are Forever</p>
             <p className="p-text">We offer the following services</p>
             <button type="button" className="btn-light">
@@ -33,7 +33,7 @@ const SectionOffer = () => {
           <div className="offer-picture-box">
             <img src={OfferPapaya} alt="Delicious papaya" />
           </div>
-          <div className="offer-item-tekst">
+          <div className="offer-item-text">
             <p className="p-32 text-medium mb-40">Good For Your Skin</p>
             <p className="p-text">We offer the following services</p>
             <button type="button" className="btn-light">
@@ -42,7 +42,7 @@ const SectionOffer = () => {
           </div>
         </div>
         <div className="offer-item item-3">
-          <div className="offer-item-tekst">
+          <div className="offer-item-text">
             <p className="p-32 text-medium mb-40">Veggi Food Groove</p>
             <p className="p-text">We offer the following services</p>
             <button type="button" className="btn-light">
@@ -54,7 +54,7 @@ const SectionOffer = () => {
           </div>
         </div>
         <div className="offer-item item-4">
-          <div className="offer-item-tekst">
+          <div className="offer-item-text">
             <p className="p-32 text-medium mb-40">That Comes Close</p>
             <p className="p-text">We offer the following services</p>
             <button type="button" className="btn-light">
