@@ -1,7 +1,7 @@
-import ProductCarrot from "./pictures/ProductCarrot.png";
-import ProductLime from "./pictures/ProductLime.png";
-import ProductPapaya from "./pictures/ProductPapaya.png";
-import ProductPomegranate from "./pictures/ProductPomegranate.png";
+import OfferCarrot from "./pictures/OfferCarrot.png";
+import OfferLime from "./pictures/OfferLime.png";
+import OfferPapaya from "./pictures/OfferPapaya.png";
+import OfferPomegranate from "./pictures/OfferPomegranate.png";
 
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,7 +18,7 @@ const SectionOffer = () => {
       <div className="offer-items-container">
         <div className="offer-item item-1">
           <div className="offer-picture-box">
-            <img src={ProductCarrot} alt="Healty fruit and vegetables" />
+            <img src={OfferCarrot} alt="Healty fruit and vegetables" />
           </div>
           <div className="offer-item-tekst">
             <p className="p-32 text-medium mb-40">Veggies Are Forever</p>
@@ -31,7 +31,7 @@ const SectionOffer = () => {
         </div>
         <div className="offer-item item-2">
           <div className="offer-picture-box">
-            <img src={ProductPapaya} alt="Delicious papaya" />
+            <img src={OfferPapaya} alt="Delicious papaya" />
           </div>
           <div className="offer-item-tekst">
             <p className="p-32 text-medium mb-40">Good For Your Skin</p>
@@ -50,7 +50,7 @@ const SectionOffer = () => {
             </button>
           </div>
           <div className="offer-picture-box">
-            <img src={ProductPomegranate} alt="Fresh pomegranade" />
+            <img src={OfferPomegranate} alt="Fresh pomegranade" />
           </div>
         </div>
         <div className="offer-item item-4">
@@ -62,7 +62,7 @@ const SectionOffer = () => {
             </button>
           </div>
           <div className="offer-picture-box">
-            <img src={ProductLime} alt="Fresh lemon" />
+            <img src={OfferLime} alt="Fresh lemon" />
           </div>
         </div>
       </div>

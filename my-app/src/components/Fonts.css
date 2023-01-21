@@ -82,3 +82,8 @@
 .text-bold {
   font-weight: 600;
 }
+
+.text-line-through {
+  text-decoration: line-through;
+  color: rgba(118, 118, 117, 0.25);
+}
