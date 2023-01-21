@@ -1,3 +1,6 @@
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import StarsPic from "./pictures/StarsPic.png";
 import "./SectionStars.css";
 
@@ -23,8 +26,8 @@ const SectionStars = () => {
             <p className="p-14">Offcial Store</p>
           </div>
         </div>
-        <button type="button" className="btn-green">
-          Get Special Promo
+        <button type="button" className="btn-green button-stars btn-mobile">
+          Get Special Promo <FontAwesomeIcon icon={faArrowRight} />
         </button>
       </div>
       <div className="benefits-picture-box">

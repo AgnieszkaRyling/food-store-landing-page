@@ -1,9 +1,17 @@
 .section-products {
   max-width: 1170px;
-  border: 2px solid green;
+  padding: 20px;
 }
 
 @media (min-width: 767px) and (max-width: 1200px) {
+  .section-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
   .section-products {
     display: flex;
     flex-direction: column;
@@ -27,10 +35,10 @@
 
 @media (max-width: 768px) {
   .products-container {
-    height: 2360px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 30px;
   }
 }
 

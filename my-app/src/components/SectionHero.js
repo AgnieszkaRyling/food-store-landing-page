@@ -5,6 +5,9 @@ import LogoOne from "./pictures/LogoOne.png";
 import LogoTwo from "./pictures/LogoTwo.png";
 import LogoThree from "./pictures/LogoThree.png";
 
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import "./SectionHero.css";
 
 const SectionHero = () => {
@@ -19,8 +22,8 @@ const SectionHero = () => {
             We strive to provide a space where guests can connect with
             themselves and explore their full potential, offering a safe place.
           </p>
-          <button type="button" className="btn-green">
-            Get started
+          <button type="button" className="btn-green btn-mobile">
+            Get started <FontAwesomeIcon icon={faArrowRight} />
           </button>
         </div>
         <div className="hero-image-box">

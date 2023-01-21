@@ -30,6 +30,18 @@
   color: #1d1d1f;
 }
 
+@media (max-width: 768px) {
+  .h2-text {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .h2-text {
+    font-size: 35px;
+  }
+}
+
 .h3-text {
   font-size: 32px;
   color: #1d1d1f;
@@ -76,6 +88,10 @@
   color: #767675;
 }
 
+.text-white {
+  color: #fff;
+}
+
 .text-green {
   color: #06c167;
 }
@@ -91,4 +107,8 @@
 .text-line-through {
   text-decoration: line-through;
   color: rgba(118, 118, 117, 0.25);
+}
+
+.text-center {
+  text-align: center;
 }

@@ -1,0 +1,27 @@
+.section-banner {
+  max-width: 1170px;
+  min-height: 459px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  position: relative;
+}
+
+.banner-picture-box {
+  max-width: 1170px;
+  height: 459px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.banner-text-box {
+  max-width: 799px;
+}
+
+.button-banner {
+  width: 210px;
+}

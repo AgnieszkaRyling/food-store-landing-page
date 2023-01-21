@@ -1,13 +1,38 @@
 .footer-container {
   max-width: 1440px;
-  border: 2px solid red;
   padding: 50px 100px;
   display: grid;
   grid-template-columns: 40% 15% 15% 30%;
 }
 
-.footer-grid-col-one {
-  background-color: lightblue;
+@media (min-width: 767px) and (max-width: 1200px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+  .footer-grid-col-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-grid-col-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
 }
 
 .col-one-text-box {
@@ -20,16 +45,58 @@
   justify-content: space-between;
 }
 
-.footer-grid-col-two {
-  background-color: lightcoral;
+@media (min-width: 767px) and (max-width: 1200px) {
+  .footer-grid-col-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 30px;
+  }
 }
 
-.footer-grid-col-three {
-  background-color: lightyellow;
+@media (max-width: 768px) {
+  .footer-grid-col-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
 }
 
-.footer-grid-col-four {
-  background-color: lightgreen;
+@media (min-width: 767px) and (max-width: 1200px) {
+  .footer-grid-col-three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-grid-col-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+  .footer-grid-col-four {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-grid-col-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
 }
 
 .col-four-text-box {
@@ -44,4 +111,17 @@
 .input-email {
   height: 50px;
   padding: 10px;
+}
+
+.btn-footer {
+  height: 50px;
+}
+
+.footer-copyright-box {
+  max-width: 1440px;
+  padding: 10px;
+}
+
+.copyright-text {
+  text-align: center;
 }
