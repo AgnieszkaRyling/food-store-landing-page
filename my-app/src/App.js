@@ -4,6 +4,7 @@ import SectionLogos from "./components/SectionLogos";
 import SectionFeatures from "./components/SectionFeatures";
 import SectionBenefits from "./components/SectionBenefits";
 import SectionStars from "./components/SectionStars";
+import SectionOffer from "./components/SectionOffer";
 
 import "./components/Reset.css";
 import "./components/Normalize.css";
@@ -18,6 +19,7 @@ const App = () => {
       <SectionFeatures />
       <SectionBenefits />
       <SectionStars />
+      <SectionOffer />
     </Layout>
   );
 };

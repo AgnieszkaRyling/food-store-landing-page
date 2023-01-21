@@ -39,3 +39,9 @@
   background-color: transparent;
   border: none;
 }
+
+.btn-light {
+  color: #06c167;
+  background-color: #f3fcf7;
+  padding: 10px;
+}
