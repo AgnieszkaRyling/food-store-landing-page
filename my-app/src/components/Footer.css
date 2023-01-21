@@ -1,0 +1,47 @@
+.footer-container {
+  max-width: 1440px;
+  border: 2px solid red;
+  padding: 50px 100px;
+  display: grid;
+  grid-template-columns: 40% 15% 15% 30%;
+}
+
+.footer-grid-col-one {
+  background-color: lightblue;
+}
+
+.col-one-text-box {
+  max-width: 284px;
+}
+
+.footer-icons-box {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-grid-col-two {
+  background-color: lightcoral;
+}
+
+.footer-grid-col-three {
+  background-color: lightyellow;
+}
+
+.footer-grid-col-four {
+  background-color: lightgreen;
+}
+
+.col-four-text-box {
+  max-width: 338px;
+}
+
+.input-email-box {
+  display: flex;
+  gap: 20px;
+}
+
+.input-email {
+  height: 50px;
+  padding: 10px;
+}
